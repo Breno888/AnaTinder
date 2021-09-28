@@ -1,0 +1,63 @@
+
+/*==== VARIABLES ====*/
+:root {
+    --header-height: 3.5rem;
+
+    /* color */
+    --hue: 242;
+    /* HSL color mode */
+    --base-color: hsl(var(--hue) 64% 54%);
+    --body-color: hsl(0 0% 98%);
+
+    /* fonts */
+  --title-font-size: 1.875rem;
+  --subtitle-font-size: 1rem;
+
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
+}
+
+body {
+    background: var(--body-color);
+}
+
+
+h1 {
+    font-size: 1.8rem;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: var(--title-font);
+    color: var(--base-color);
+}
+
+img {
+    max-width: 100%;
+    border-radius: auto;
+}
+
+
+/* navegation */
+header {
+    height: var(--header-height);
+}
+
+.email {
+    align-content: space-between;
+}
+
+.divider-1 {
+    height: 2px;
+    background: linear-gradient(
+      242deg,
+      hsla(var(--hue), 46%, 57%),
+      hsla(var(--hue), 65%, 88%)
+    );
+  }
+
+/* main */
+footer {
+    background: var(--base-color);
+}
